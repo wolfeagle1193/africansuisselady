@@ -140,6 +140,8 @@ width: 100%;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
+  margin-left:-15px;
+  margin-bottom: 20px;
 }
 .hero-banner-container button{
    border-radius: 15px;
@@ -147,7 +149,8 @@ width: 100%;
   background-color:#f02d34;
   color: white;
   border: none;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-left:-15px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -158,12 +161,12 @@ width: 100%;
   font-size: 4rem;
   margin-top: 4px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-left: 20px;
+  margin-left: -15px;
 }
 .hero-banner-container h1{
   color: white;
   font-size: 10em;
-  margin-left:20px;
+  margin-left:-15px;
   text-transform: uppercase;
 }
 .hero-banner-image{

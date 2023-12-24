@@ -175,8 +175,8 @@ width: 100%;
   position: absolute;
   top: 0%;
   right:0%;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
 }
 
 
@@ -630,7 +630,7 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
-    height: 500px;
+    height: 545px;
   }
   .hero-banner-container button{
     position :relative;
@@ -638,22 +638,22 @@ margin-top: 160px;
 
   }
   .hero-banner-image{
-    width: 40%;
+    width: 50%;
     height: 68%;
     top: 0%;
     right: 0%;
   }
   .footer-banner-container{
-    height: 500px;
+    height: 545px;
     margin-top: 80px;
-    padding-top:5%;
+    padding-top:8%;
     padding-left:1.5%;
   }
   .footer-banner-image{
     width: 55%;
-    left: 45%;
-    top: -4%;
-    height: 70%
+    left: 50%;
+    top: 0%;
+    height: 70%;
   }
   .banner-desc .left h3{
     font-weight: 900;
@@ -673,8 +673,13 @@ margin-top: 160px;
     font-size: 14px;
   }
   .banner-desc{
-    flex-wrap: wrap;
-    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*flex-wrap: wrap;*/
+    flex-direction: column-reverse;
+    justify-content: end;
+    align-items: start;
+    gap: 40px;
   }
   .hero-banner-container{
     line-height: 1.3;

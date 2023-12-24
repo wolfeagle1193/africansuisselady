@@ -141,7 +141,7 @@ width: 100%;
 .hero-banner-container .beats-solo{
   font-size: 20px;
   margin-left:-15px;
-  margin-bottom: 20px;
+  /*margin-bottom: 1%;*/
 }
 .hero-banner-container button{
    border-radius: 15px;
@@ -149,17 +149,18 @@ width: 100%;
   background-color:#f02d34;
   color: white;
   border: none;
-  margin-top: 20px;
+  margin-top:1%;
   margin-left:-15px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   z-index:10000 !important;
+  
 }
 
 .hero-banner-container h3{
   font-size: 4rem;
-  margin-top: 4px;
+  margin-top: 1%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-left: -15px;
 }
@@ -167,6 +168,7 @@ width: 100%;
   color: white;
   font-size: 10em;
   margin-left:-15px;
+  margin-top:1%;
   text-transform: uppercase;
 }
 .hero-banner-image{
@@ -190,7 +192,7 @@ flex-direction: column;
 
 }
 .desc p{
-  color:/* #5f5f5f*/white;
+  color:white;
   font-weight: 100;
 text-align: end;
 }
@@ -628,23 +630,30 @@ margin-top: 160px;
 
 @media screen and (max-width:800px) {
   .hero-banner-container{
-    height: 560px;
+    height: 500px;
+  }
+  .hero-banner-container button{
+    position :relative;
+    bottom: 49px;
+
   }
   .hero-banner-image{
     width: 40%;
-    height: 72%;
+    height: 68%;
     top: 0%;
     right: 0%;
   }
   .footer-banner-container{
-    height: 560px;
+    height: 500px;
     margin-top: 80px;
+    padding-top:5%;
+    padding-left:1.5%;
   }
   .footer-banner-image{
-    width: 65%;
-    left: 42%;
+    width: 55%;
+    left: 45%;
     top: -4%;
-    height: 80%
+    height: 70%
   }
   .banner-desc .left h3{
     font-weight: 900;

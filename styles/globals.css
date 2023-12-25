@@ -653,10 +653,10 @@ margin-top: 160px;
     padding-left:1.5%;
   }
   .footer-banner-image{
-    width: 48%;
-    left: 51%;
+    width: 42%;
+    left: 60%;
     top:15%;
-    height: 70%;
+    height: 75%;
   } 
  
   
@@ -676,7 +676,7 @@ margin-top: 160px;
     font-weight: 900;
     font-size: 50px;
     margin-left: 0px;
-    z-index: 100000 ;
+    z-index: 1000000 ;
   }
   
   .banner-desc .right h3{

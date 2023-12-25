@@ -723,8 +723,10 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 90%;
-    height: 350px;
+    width: 100%;
+    height:100%;
+    
+
   }
   .cart-container{
     width: 415px;

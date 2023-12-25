@@ -180,6 +180,7 @@ width: 100%;
   right:0%;
   width: 500px;
   height: 500px;
+  
 }
 
 
@@ -641,10 +642,11 @@ margin-top: 160px;
 
   }
   .hero-banner-image{
-    width: 36%;
-    height: 68%;
+    width: 50%;
+    height: 50%;
     top: 0%;
     right: 0%;
+    z-index: -4;
   }
   .footer-banner-container{
     height: 545px;

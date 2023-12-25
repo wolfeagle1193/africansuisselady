@@ -64,9 +64,11 @@ width: 100%;
     -webkit-text-stroke: 1px #f02d34;
     margin-left: 6px;
 }
-.logo{
+.logoContainer{
   color: gray;
   font-size: 18px;
+  display: flex;
+  align-items: center;
 
 }
 .cart-icon{
@@ -133,9 +135,10 @@ width: 100%;
   background-color:#30c003 ;
   border-radius: 15px;
   position: relative;
-  height: 500px;
+  height: 600px;
   line-height: 0.9; 
   width: 100%;
+  text-align: left;
 
 }
 .hero-banner-container .beats-solo{
@@ -149,18 +152,18 @@ width: 100%;
   background-color:#f02d34;
   color: white;
   border: none;
-  margin-top:1%;
+  margin-top:8%;
   margin-left:-15px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   z-index:10000 !important;
-  
+  /* /*margin-top:76px;* */
 }
 
 .hero-banner-container h3{
   font-size: 4rem;
-  margin-top: 1%;
+  margin-top: 3%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-left: -15px;
 }
@@ -225,7 +228,7 @@ text-align: end;
   background-color:#30c003;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 500px;
   line-height: 1; 
   color: white;
   width: 100%;
@@ -258,8 +261,8 @@ text-align: end;
   position: absolute;
   /* top: -35%;
   left: 8%; */
-  top: -41%;
-  left: 25%;
+  top: -32%;
+  left: 32%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -652,17 +655,30 @@ margin-top: 160px;
   .footer-banner-image{
     width: 48%;
     left: 51%;
-    top: -2%;
+    top:15%;
     height: 70%;
-  }
+  } 
+ 
+  
+/*.banner-desc .left h3{
+ 
+  margin-left: 0px;
+}*/
+.banner-desc .left p{
+  margin-top:18px;
+  margin-bottom:18px;
+}
+.interline{
+  margin-bottom:10px;
+}
+  
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 0px;
+    z-index: 100000 ;
   }
-  .banner-desc .left p{
-    margin:18px;
-  }
+  
   .banner-desc .right h3{
     font-size: 45px;
   }
@@ -689,9 +705,10 @@ margin-top: 160px;
   }
  .hero-banner-container h3{
     font-size: 40px;
+    z-index: 9999;
   }
   .hero-banner-container button{
-    margin-top: 90px;
+    margin-top: 130px;
     z-index: 10000;
   }
   .desc{

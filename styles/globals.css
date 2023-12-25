@@ -656,9 +656,9 @@ margin-top: 160px;
     z-index: -10;
   }
   .footer-banner-image{
-    width: 78%;
-    left: 28%;
-    top:3%;
+    width: 80%;
+    left: 20%;
+    top:-1%;
     height: 95%;
     z-index:-4;
   } 

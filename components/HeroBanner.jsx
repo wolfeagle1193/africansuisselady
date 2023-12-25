@@ -7,7 +7,6 @@ const HeroBanner = ({heroBanner :{smallText,image,midText,largeText1,product,but
         <div>
             <p className='beats-solo'>{smallText}</p>
         </div>
-        <h1>Raffiné</h1>
         <h3>{midText}</h3>
         <h1>{largeText1}</h1>
         <img src={urlFor(image).url()} alt="Tissu-bazin" className='hero-banner-image'/>

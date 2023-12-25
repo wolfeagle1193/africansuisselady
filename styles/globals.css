@@ -653,12 +653,14 @@ margin-top: 160px;
     margin-top: 80px;
     padding-top:8%;
     padding-left:1.5%;
+    z-index: -10;
   }
   .footer-banner-image{
-    width: 42%;
+    width: 55%;
     left: 60%;
     top:15%;
     height: 75%;
+    z-index:-4;
   } 
  
   

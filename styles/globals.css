@@ -748,10 +748,17 @@ margin-top: 160px;
   }
   .buttons .add-to-cart{
     width: 150px;
-  }
+  }/*
   .buttons .buy-now{
     width: 150px;
   }
+  .buttons .add-to-cart {
+    max-width: 150px;
+}*/
+
+.buttons .buy-now {
+    max-width: 150px;
+}
   .product-detail-container{
     margin: 20px;
   }

@@ -729,7 +729,8 @@ margin-top: 160px;
 
   }
   .cart-container{
-    width: 415px;
+    /*width: 415px;*/
+    width:90%;
   padding: 4px;
   }
   .cart-heading{

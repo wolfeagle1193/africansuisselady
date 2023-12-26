@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
-import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 'react-icons/ai';
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineShopping ,AiOutlineClose} from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
 import toast from 'react-hot-toast';
 import { useStateContext } from '../context/StateContext';
@@ -14,11 +14,11 @@ const Cart = () => {
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
-        type="button"
-        className="cart-heading"
-        onClick={() => setShowCart(false)}>
-          <AiOutlineLeft />
-          <span className="heading">Votre panier</span>
+         type="button"
+         className="cart-heading"
+         onClick={() => setShowCart(false)}>
+          <AiOutlineClose />
+          <span className="heading">Votre panier contient</span>
           <span className="cart-num-items">({totalQuantities} article(s))</span>
         </button>
 
@@ -71,7 +71,7 @@ const Cart = () => {
         </div>
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
-            <div className="total">
+            <div className="total total2">
               <h3>Total:</h3>
               <h3>{totalPrice} FCFA</h3>
             </div>
